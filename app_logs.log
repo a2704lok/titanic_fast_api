@@ -1,0 +1,8 @@
+INFO:root:model is tryiningt to predict
+INFO:root:features converted to df
+INFO:root:Feature Data:    Pclass  Sex   Age  SibSp  Fare
+0       1    1  70.0      1  30.0
+INFO:root:model is tryiningt to predict
+INFO:root:features converted to df
+INFO:root:Feature Data:    Pclass  Sex   Age  SibSp  Fare
+0       1    0  70.0      1  30.0

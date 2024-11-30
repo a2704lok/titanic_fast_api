@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "titanic-setup"
+version = "0.1.0"
+description = ""
+authors = ["a2704lok <alokkumarsingh230@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.5"
+uvicorn = "^0.32.1"
+xgboost = "2.1.1"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
