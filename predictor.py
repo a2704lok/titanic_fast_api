@@ -15,11 +15,6 @@ class XgboostPrediction:
     def __init__(self, path: str):
         self.path = path
 
-
-class XgboostPrediction:
-    def __init__(self, path: str):
-        self.path = path
-
     def load_model(self):
         if not os.path.exists(self.path):
             logging.error(f"Model file does not exist at path: {self.path}")
@@ -52,4 +47,3 @@ class XgboostPrediction:
         df = self.make_feature(feature)
         predictions = loaded_model.predict(df)
         return predictions
-
